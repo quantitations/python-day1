@@ -1,0 +1,21 @@
+<html>
+
+	<head>
+		<title>Case table</title>
+	</head>
+
+	<body>
+		<h1>Cases in {{ year }}</h1>
+		<table id="cases">
+			<tr><th>Month</th><th>number of cases</th></tr>
+			
+			{% for month in data.index %}
+			<tr><td>{{ month }}</td><td>{{ data[month] }}</td></tr>
+			{% endfor %}
+			
+		</table>
+
+
+	</body>
+
+</html>
