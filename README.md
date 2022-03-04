@@ -1,4 +1,4 @@
-SESSION 1 (basics)
+# SESSION 1 (Intro)
 
 - open Anaconda Navigator and Spyder
 - language_basics.py
@@ -8,7 +8,7 @@ SESSION 1 (basics)
 
 
 
-SESSION 2 (showcase)
+# SESSION 2 (Showcase)
 
 - open terminal
 - system_commands.py
